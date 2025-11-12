@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* 🌞 Light Retro Theme */
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+
+  /* Base colors */
+  --color-base-100: #f8f5f2;     /* parchment background */
+  --color-base-200: #f0ebe6;
+  --color-base-300: #e8e3dc;
+  --color-base-content: #32261b; /* warm dark text */
+
+  /* Core Palette */
+  --color-primary: #077d7d;      /* bright teal */
+  --color-primary-content: #f8f5f2;
+  
+  --color-secondary: #cc9b8e;    /* warm taupe */
+  --color-secondary-content: #f8f5f2;
+  
+  --color-accent: #8ab7ae;       /* muted seafoam */
+  --color-accent-content: #f8f5f2;
+  
+  --color-neutral: #32261b;      /* warm brown */
+  --color-neutral-content: #f8f5f2;
+
+  /* Retro system colors */
+  --color-info: #4da5a5;         /* dusty cyan */
+  --color-info-content: #f8f5f2;
+  
+  --color-success: #7fa27f;      /* sage green */
+  --color-success-content: #f8f5f2;
+  
+  --color-warning: #d9a441;      /* muted amber */
+  --color-warning-content: #32261b;
+  
+  --color-error: #c4492f;        /* brick red */
+  --color-error-content: #f8f5f2;
+}
+
+/* 🌙 Dark Retro Theme */
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: dark;
+
+  /* Base colors */
+  --color-base-100: #0d0a07;     /* deep coffee background */
+  --color-base-200: #1a161a;
+  --color-base-300: #272320;
+  --color-base-content: #f5f1ed; /* light cream text */
+
+  /* Core Palette */
+  --color-primary: #82f8f8;      /* pale neon teal */
+  --color-primary-content: #0d0a07;
+  
+  --color-secondary: #713f33;    /* deep brown-red */
+  --color-secondary-content: #f5f1ed;
+  
+  --color-accent: #48756c;       /* dark desaturated teal */
+  --color-accent-content: #f5f1ed;
+  
+  --color-neutral: #f5f1ed;      /* light cream text */
+  --color-neutral-content: #0d0a07;
+
+  /* Retro system colors */
+  --color-info: #5fc0c0;         /* faded aqua */
+  --color-info-content: #0d0a07;
+  
+  --color-success: #8fbf8f;      /* soft moss */
+  --color-success-content: #0d0a07;
+  
+  --color-warning: #e0b75b;      /* warm golden wheat */
+  --color-warning-content: #0d0a07;
+  
+  --color-error: #e06b4b;        /* clay red */
+  --color-error-content: #f5f1ed;
+}
+
